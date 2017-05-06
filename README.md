@@ -1,2 +1,2 @@
 # battle-of-exceptions
-Battle of exceptions monitor
+Battle of exceptions monitor, making exceptions fun since 2017
