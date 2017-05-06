@@ -20,33 +20,28 @@ class ExceptionController extends Controller
             'exceptions' => [
                 [
                     'project' => 'Test',
-                    'message' => 'This is an test exception',
-                    'severity' => 'ERROR',
-                    'datetime' => '2017-05-05T16:24:00'
+                    'exceptions' => [
+                        [
+                            'datetime' => '2017-05-05T16:24:00'
+                        ],
+                        [
+                            'datetime' => '2017-05-05T14:58:10'
+                        ]
+                    ]
                 ],
                 [
                     'project' => 'Test 2',
-                    'message' => 'This is another test exception',
-                    'severity' => 'ERROR',
-                    'datetime' => '2017-05-05T16:23:25'
-                ],
-                [
-                    'project' => 'Test 2',
-                    'message' => 'This is another test exception',
-                    'severity' => 'ERROR',
-                    'datetime' => '2017-05-05T15:13:12'
-                ],
-                [
-                    'project' => 'Test 2',
-                    'message' => 'This is another warning',
-                    'severity' => 'WARN',
-                    'datetime' => '2017-05-05T15:08:46'
-                ],
-                [
-                    'project' => 'Test',
-                    'message' => 'This a test warning',
-                    'severity' => 'WARN',
-                    'datetime' => '2017-05-05T14:58:10'
+                    'exceptions' => [
+                        [
+                            'datetime' => '2017-05-05T16:23:25'
+                        ],
+                        [
+                            'datetime' => '2017-05-05T15:13:12'
+                        ],
+                        [
+                            'datetime' => '2017-05-05T15:08:46'
+                        ]
+                    ]
                 ]
             ]
         ]);

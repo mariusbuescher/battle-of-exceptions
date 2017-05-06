@@ -33,7 +33,9 @@
     "babel-core": "^6.24.1",
     "babel-loader": "^7.0.0",
     "babel-preset-env": "^1.4.0",
+    "chart.js": "^2.5.0",
     "vue": "^2.3.2",
+    "vue-chartjs": "^2.6.2",
     "webpack": "^2.5.0"
   }
 }
