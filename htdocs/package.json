@@ -1,0 +1,39 @@
+{
+  "name": "battle-of-exceptions",
+  "version": "1.0.0",
+  "description": "Battle of exceptions monitor",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mariusbuescher/battle-of-exceptions.git"
+  },
+  "author": {
+    "name": "Marius Büscher",
+    "email": "marius.buescher@denkwerk.com"
+  },
+  "contributors": [
+    {
+      "name": "Sylt-Luwe Steen",
+      "email": "sylt-luwe.steen@denkwerk.com"
+    }
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mariusbuescher/battle-of-exceptions/issues"
+  },
+  "homepage": "https://github.com/mariusbuescher/battle-of-exceptions#readme",
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-preset-env": "^1.4.0",
+    "vue": "^2.3.2",
+    "webpack": "^2.5.0"
+  }
+}
