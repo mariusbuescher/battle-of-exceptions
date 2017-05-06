@@ -17,3 +17,11 @@ parameters:
 
     # A secret key that's used to generate certain security-related tokens
     secret: ThisTokenIsNotSoSecretChangeIt
+    exception_filter_words:
+        motelone:
+            - motelone
+            - motel-one
+        storckcorporate:
+            - www.storck
+        jenkins:
+            - jenkins

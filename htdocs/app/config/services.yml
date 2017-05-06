@@ -4,6 +4,9 @@ parameters:
     #parameter_name: value
 
 services:
-    #service_name:
-    #    class: AppBundle\Directory\ClassName
-    #    arguments: ['@another_service_name', 'plain_value', '%parameter_name%']
+    exception_funnel:
+        class: AppBundle\Service\ExceptionFunnel
+        arguments: ['%exception_filter_words%']
+    mail_fetcher:
+        class: AppBundle\Service\MailFetcher
+        arguments: ['@exception_funnel', '%mailuser%', '%mailpassword%', '%mailbox']
